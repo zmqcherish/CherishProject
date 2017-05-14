@@ -1,0 +1,10 @@
+POST /s HTTP/1.1
+Host:cet.99sushe.com
+Referer: http://cet.99sushe.com/
+Content-Length: 36
+
+id=510024121217617&name=%C0%EE%CF%BC
+¿Óœº  510024121217617  %C0%EE%CF%BC
+¿ÓÀß  510024121217618  %C0%EE%CB%A7
+¿Óª‘  510024121217619 %C0%EE%BB%D4 
+%D5%C5%C3%F7
