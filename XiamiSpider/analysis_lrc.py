@@ -26,7 +26,7 @@ def analysis():
         except Exception as e:
             print(e)
     
-    wc = WordCloud(font_path=font_path, width=1000, height=1000, max_words=100)
+    wc = WordCloud(font_path=font_path, width=1000, height=1000, max_words=50)
     frequencies = Counter([w for text in lrc_list for w in jieba.cut(text, cut_all=False) if len(w) > 1])
     img = wc.generate_from_frequencies(frequencies).to_image()
     fn = 'lrc.png'
