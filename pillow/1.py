@@ -6,7 +6,7 @@ def create_img(pic_size=(1224,1224)):
     h = ['³³⁰', '⁵²⁰', '₃₃₀', '₅₂₀', 'ᴴᵉᵇᵉ', 'ᴴᵉᵇᵉ', 'ᴴᵉᵇᵉ', 'ꓱꓭꓱꓧ', 'ꓱꓭꓱꓧ', '♥', '♥', 'hebe', 'hebe', 'ʰᵉᵇᵉ', 'ʰᵉᵇᵉ']
     font = ImageFont.truetype("segoeuil.ttf", 30)
 
-    im = Image.new("RGBA", pic_size, (175, 2280, 110, 255))
+    im = Image.new("RGBA", pic_size, (175, 255, 110, 255))
     text = ''
     for i in range(1000):
         if i>20 and i%20 == 0:
@@ -60,8 +60,8 @@ def change_img2():
     target.save('target.png')
 
 # create_font('田馥甄', 400)
-change_img2()
-# create_img((1300,1300))
+# change_img2()
+create_img()
 # change_img()
 # paste_img()
 
